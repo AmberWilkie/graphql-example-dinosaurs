@@ -1,24 +1,27 @@
-# README
+# GraphQL Example App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Put together for Rubyist meetup, September 26, 2018
 
-Things you may want to cover:
+-----------------------------------------------
 
-* Ruby version
+Clone, `bundle`, create some records, pop over to `localhost:PORT/graphiql`. 
 
-* System dependencies
 
-* Configuration
 
-* Database creation
+Try:
+```javascript
+{
+   dinosaurs {
+    id
+    name
+    species
+    scientific_name
+    researcher {
+      id
+      name
+    }
+  }
+}
+```
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
