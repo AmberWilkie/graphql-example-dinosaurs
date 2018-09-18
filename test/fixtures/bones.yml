@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  researcher: one
+  dinosaur: one
+  location: MyString
+  date_found: 2018-09-18
+
+two:
+  researcher: two
+  dinosaur: two
+  location: MyString
+  date_found: 2018-09-18
